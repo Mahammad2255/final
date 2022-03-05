@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (max-width:768px) {
+    #first, #section2, #section3 {
+        display: none;
+    }
+    .responsiv-header{
+        display: flex;
+    }
+    
+  }
